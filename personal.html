@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Review Form - Personal Details</title>
+</head>
+<body>
+
+<h1>Review Form</h1>
+
+<form method="POST" action="review.html">
+
+    <fieldset>
+        <legend><strong>Personal Details</strong></legend>
+
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="first_name" placeholder="First name">
+        <br><br>
+
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="last_name" placeholder="Last name">
+        <br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="Male"> Male<br>
+        <input type="radio" name="gender" value="Female"> Female<br>
+        <input type="radio" name="gender" value="Other"> Other
+        <br><br>
+
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+    </fieldset>
+
+    <br>
+    <a href="index.html">Previous</a>
+    <a href="review.html">Next</a>
+    &nbsp;&nbsp;
+    <input type="submit" value="Next">
+
+</form>
+
+</body>
+</html>
